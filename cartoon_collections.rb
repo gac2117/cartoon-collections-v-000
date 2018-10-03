@@ -15,5 +15,5 @@ end
 def find_the_cheese(snacks) # code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  snacks.any? {|x| x == cheese_types}
+  snacks.find_all {|x| x == cheese_types}
 end
